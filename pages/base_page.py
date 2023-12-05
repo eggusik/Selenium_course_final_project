@@ -1,6 +1,3 @@
-
-
-
 class BasePage:
     def __init__(self, browser, url):
         self.browser = browser
@@ -8,5 +5,3 @@ class BasePage:
 
     def open(self):
         self.browser.get(self.url)
-
-
